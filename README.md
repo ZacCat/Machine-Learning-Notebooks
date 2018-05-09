@@ -25,13 +25,13 @@ A (soon to be) collection of Jupyter Notebooks containing an introduction to mac
 ## Languages and Frameworks
 These topics will be introduced using several frameworks, in both Python and Java.
 
-__Python__
-* [sci-kit learn](http://scikit-learn.org/stable/)
-* [GenSim](https://radimrehurek.com/gensim/)
-* [Keras](https://keras.io/)
+* ### Python
+  * [sci-kit learn](http://scikit-learn.org/stable/)
+  * [GenSim](https://radimrehurek.com/gensim/)
+  * [Keras](https://keras.io/)
 
-__Java__
-* [Weka](https://www.cs.waikato.ac.nz/ml/weka/)
-* [Stanford OpenNLP](https://nlp.stanford.edu/software/)
-* [MALLET](http://mallet.cs.umass.edu/)
-* [GATE](https://gate.ac.uk/sale/tao/splitch19.html)
+* ### Java
+  * [Weka](https://www.cs.waikato.ac.nz/ml/weka/)
+  * [Stanford OpenNLP](https://nlp.stanford.edu/software/)
+  * [MALLET](http://mallet.cs.umass.edu/)
+  * [GATE](https://gate.ac.uk/sale/tao/splitch19.html)
