@@ -1,10 +1,23 @@
 
+Library/
+corpus/
+Good/
+graphs/
+nltk_data/
+vars/
+.ipython/
+.jupyter/
+.local/
+.matplotlib/ 
+.vscode/
+.DS_Store
+gensim-papers.ipynb
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/gensim-papers-checkpoint.ipynb
 jupyter_lab_open.command
 jupyter_open.command
 readme.md
 notes.md
 Untitled.ipynb
 unused.py
-.vscode/settings.json
 general.py
