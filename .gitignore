@@ -4,6 +4,7 @@ Library/
 graphs/
 nltk_data/
 vars/
+scikit_learn_data/
 .ipython/
 .jupyter/
 .local/
