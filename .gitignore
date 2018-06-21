@@ -8,7 +8,7 @@ scikit_learn_data/
 .ipython/
 .jupyter/
 .local/
-.matplotlib/ 
+.matplotlib/
 .vscode/
 .DS_Store
 .ipynb_checkpoints/toy-notebook-checkpoint.ipynb
