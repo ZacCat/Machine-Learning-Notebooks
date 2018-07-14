@@ -1,0 +1,98 @@
+@Article{platt-1999-probabilistic-outputs-for-support-vector-machines-and-comparisons-to-regularized-likelihood-methods,
+  title={Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods},
+  author={Platt, John and others},
+  journal={Advances in large margin classifiers},
+  volume={10},
+  number={3},
+  pages={61--74},
+  year={1999},
+  publisher={Cambridge, MA},
+
+  abstract={The output of a classifier should be calibrated posterior probability to enable post-processing. Standard SVMs do not provide such probabilities. One method to create probabilities is to directly train a kernel classifier with a logit link function and a regularized maximum likelihood score. However, training with a maximum likelihood score will produce non-sparse kernel machines. Instead, we train an SVM, then train the parameters of an additional sigmoid function to map the SVM outputs into probabilities. This chapter compares classification error rate and likelihood scores for an SVM plus sigmoid versus a kernel method trained with a regularized likelihood error function. These methods are tested on three data-mining-style datasets. The SVM+sigmoid yeilds probabilities of comparable quality to the regularized maximum likelihood kernel method, while still retaining the sparseness of the SVM.}
+}
+
+@Article{wu-2004-probability-estimates-for-multi-class-classification-by-pairwise-coupling,
+  title={Probability estimates for multi-class classification by pairwise coupling},
+  author={Wu, Ting-Fan and Lin, Chih-Jen and Weng, Ruby C},
+  journal={Journal of Machine Learning Research},
+  volume={5},
+  number={Aug},
+  pages={975--1005},
+  year={2004},
+
+  abstract={Pairwise coupling is a popular multi-class classification method that combines all comparisons for each pair of classes. This paper presents two approaches for obtaining class probabilities. Both methods can be reduced to linear systems and are easy to implement. We show conceptually and experimentally that the proposed approaches are more stable than the two existing popular methods: voting and the method by Hastie and Tibshirani (1998).}
+}
+
+@Article{smola-2004-a-tutorial-on-support-vector-regression,
+  title={A tutorial on support vector regression},
+  author={Smola, Alex J and Sch{\"o}lkopf, Bernhard},
+  journal={Statistics and computing},
+  volume={14},
+  number={3},
+  pages={199--222},
+  year={2004},
+  publisher={Springer},
+
+  abstract={In this tutorial we give an overview of the basic ideas underlying Support Vector (SV) machines for function estimation. Furthermore, we include a summary of currently used algorithms for training SV machines, covering both the quadratic (or convex) programming part and advanced methods for dealing with large datasets. Finally, we mention some modifications and extensions that have been applied to the standard SV algorithm, and discuss the aspect of regularization from a SV perspective.}
+}
+
+@Article{chang-2011-libsvm-a-library-for-support-vector-machines,
+  title={LIBSVM: a library for support vector machines},
+  author={Chang, Chih-Chung and Lin, Chih-Jen},
+  journal={ACM transactions on intelligent systems and technology (TIST)},
+  volume={2},
+  number={3},
+  pages={27},
+  year={2011},
+  publisher={Acm},
+
+  abstract={LIBSVM is a library for Support Vector Machines (SVMs). We have been actively developing this package since the year 2000. The goal is to help users to easily apply SVM to their applications. LIBSVM has gained wide popularity in machine learning and many other areas. In this article, we present all implementation details of LIBSVM. Issues such as solving SVM optimization problems, theoretical convergence, multi-class classification, probability estimates, and parameter selection are discussed in detail.}
+}
+
+@INPROCEEDINGS{guyon-1993-automatic-capacity-tuning-of-very-large-vc-dimension-classifiers,
+  author = {Guyon, Isabelle and Boser, B and Vapnik, V},
+  title = {Automatic Capacity Tuning of Very Large VC-dimension Classifiers},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {1993},
+  pages = {147--155},
+  publisher = {Morgan Kaufmann},
+
+  abstract={Large VC-dimension classifiers can learn difficult tasks, but are usually impractical because they generalize well only if they are trained with huge quantities of data. In this paper we show that even high-order polynomial classifiers in high dimensional spaces can be trained with a small amount of training data and yet generalize better than classifiers with a smaller VC-dimension. This is achieved with a maximum margin algorithm (the Generalized Portrait). The technique is applicable to a wide variety of classifiers, including Perceptrons, polynomial classifiers (sigma-pi unit networks) and Radial Basis Functions. The effective number of parameters is adjusted automatically by the training algorithm to match the complexity of the problem. It is shown to equal the number of those training patterns which are closest patterns to the decision boundary (supporting patterns). Bounds on the generalization error and the speed of convergence of the algorithm are given. Experimental results on handwritten digit recognition demonstrate good generalization compared to other algorithms. }
+}
+
+@Article{cortes-1995-support-vector-networks,
+  author={Cortes, Corinna and Vapnik, Vladimir},
+  title={Support-vector networks},
+  journal={Machine Learning},
+  year={1995},
+  month={Sep},
+  day={01},
+  volume={20},
+  number={3},
+  pages={273--297},
+
+  abstract={Thesupport-vector network is a new learning machine for two-group classification problems. The machine conceptually   implements the following idea: input vectors are non-linearly mapped to a very high-dimension feature space. In this feature space a   linear decision surface is constructed. Special properties of the decision surface ensures high generalization ability of the learning   machine. The idea behind the support-vector network was previously implemented for the restricted case where the training data can be   separated without errors. We here extend this result to non-separable training data.},
+  
+  issn={1573-0565},
+  doi={10.1007/BF00994018},
+  url={https://doi.org/10.1007/BF00994018}
+}
+
+
+@inproceedings{boser-1992-a-training-algorithm-for-optimal-margin-classifiers,
+ author = {Boser, Bernhard E. and Guyon, Isabelle M. and Vapnik, Vladimir N.},
+ title = {A Training Algorithm for Optimal Margin Classifiers},
+ booktitle = {Proceedings of the Fifth Annual Workshop on Computational Learning Theory},
+ series = {COLT '92},
+ year = {1992},
+ isbn = {0-89791-497-X},
+ location = {Pittsburgh, Pennsylvania, USA},
+ pages = {144--152},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/130385.130401},
+ doi = {10.1145/130385.130401},
+ acmid = {130401},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ abstract={A training algorithm that maximizes the margin between the training patterns and the decision boundary is presented. The technique is applicable to a wide variety of the classification functions, including Perceptrons, polynomials, and Radial Basis Functions. The effective number of parameters is adjusted automatically to match the complexity of the problem. The solution is expressed as a linear combination of supporting patterns. These are the subset of training patterns that are closest to the decision boundary. Bounds on the generalization performance based on the leave-one-out method and the VC-dimension are given. Experimental results on optical character recognition problems demonstrate the good generalization obtained when compared with other learning algorithms.}
+} 

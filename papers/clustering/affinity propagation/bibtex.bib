@@ -1,0 +1,68 @@
+@Article {frey-2007-clustering-by-passing-messages-between-data-points,
+  author = {Frey, Brendan J. and Dueck, Delbert},
+  title = {Clustering by Passing Messages Between Data Points},
+  volume = {315},
+  number = {5814},
+  pages = {972--976},
+  year = {2007},
+  doi = {10.1126/science.1136800},
+  publisher = {American Association for the Advancement of Science},
+
+  abstract = {Clustering data by identifying a subset of representative examples is important for processing sensory signals and detecting patterns in data. Such {\textquotedblleft}exemplars{\textquotedblright} can be found by randomly choosing an initial subset of data points and then iteratively refining it, but this works well only if that initial choice is close to a good solution. We devised a method called {\textquotedblleft}affinity propagation,{\textquotedblright} which takes as input measures of similarity between pairs of data points. Real-valued messages are exchanged between data points until a high-quality set of exemplars and corresponding clusters gradually emerges. We used affinity propagation to cluster images of faces, detect genes in microarray data, identify representative sentences in this manuscript, and identify cities that are efficiently accessed by airline travel. Affinity propagation found clusters with much lower error than other methods, and it did so in less than one-hundredth the amount of time.},
+  
+  issn = {0036-8075},
+  URL = {http://science.sciencemag.org/content/315/5814/972},
+  eprint = {http://science.sciencemag.org/content/315/5814/972.full.pdf},
+  journal = {Science}
+}
+
+@Article{wang-2013-multi-exemplar-affinity-propagation, 
+author={Wang, C. D. and Lai, J. H. and Suen, C. Y. and Zhu, J. Y.}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Multi-Exemplar Affinity Propagation}, 
+year={2013}, 
+volume={35}, 
+number={9}, 
+pages={2223-2237},
+
+abstract={The affinity propagation (AP) clustering algorithm has received much attention in the past few years. AP is appealing because it is efficient, insensitive to initialization, and it produces clusters at a lower error rate than other exemplar-based methods. However, its single-exemplar model becomes inadequate when applied to model multisubclasses in some situations such as scene analysis and character recognition. To remedy this deficiency, we have extended the single-exemplar model to a multi-exemplar one to create a new multi-exemplar affinity propagation (MEAP) algorithm. This new model automatically determines the number of exemplars in each cluster associated with a super exemplar to approximate the subclasses in the category. Solving the model is NP--hard and we tackle it with the max-sum belief propagation to produce neighborhood maximum clusters, with no need to specify beforehand the number of clusters, multi-exemplars, and superexemplars. Also, utilizing the sparsity in the data, we are able to reduce substantially the computational time and storage. Experimental studies have shown MEAP's significant improvements over other algorithms on unsupervised image categorization and the clustering of handwritten digits.}, 
+
+keywords={belief maintenance;computational complexity;handwritten character recognition;pattern clustering;unsupervised learning;AP clustering algorithm;NP-hard problem;character recognition;handwritten digit clustering;max-sum belief propagation;multiexemplar affinity propagation algorithm;scene analysis;single-exemplar AP model;unsupervised image categorization;Belief propagation;Clustering algorithms;Clustering methods;Computational modeling;Couplings;Educational institutions;Kernel;Clustering;affinity propagation;factor graph;max-product belief propagation;multi-exemplar;Algorithms;Biometric Identification;Cluster Analysis;Databases, Factual;Face;Facial Expression;Female;Handwriting;Humans;Image Processing, Computer-Assisted;Pattern Recognition, Automated}, 
+
+doi={10.1109/TPAMI.2013.28}, 
+ISSN={0162-8828}, 
+month={Sept}
+}
+
+@INPROCEEDINGS{dueck-2007-non-metric-affinity-propagation-for-unsupervised-image-categorization, 
+  author={Dueck, D. and Frey, B. J.}, 
+  booktitle={2007 IEEE 11th International Conference on Computer Vision}, 
+  title={Non-metric affinity propagation for unsupervised image categorization}, 
+  year={2007}, 
+  volume={}, 
+  number={}, 
+  pages={1-8}, 
+  abstract={Unsupervised categorization of images or image parts is often needed for image and video summarization or as a preprocessing step in supervised methods for classification, tracking and segmentation. While many metric-based techniques have been applied to this problem in the vision community, often, the most natural measures of similarity (e.g., number of matching SIFT features) between pairs of images or image parts is non-metric. Unsupervised categorization by identifying a subset of representative exemplars can be efficiently performed with the recently-proposed 'affinity propagation' algorithm. In contrast to k-centers clustering, which iteratively refines an initial randomly-chosen set of exemplars, affinity propagation simultaneously considers all data points as potential exemplars and iteratively exchanges messages between data points until a good solution emerges. When applied to the Olivetti face data set using a translation-invariant non-metric similarity, affinity propagation achieves a much lower reconstruction error and nearly halves the classification error rate, compared to state-of-the-art techniques. For the more challenging problem of unsupervised categorization of images from the CaltechlOl data set, we derived non-metric similarities between pairs of images by matching SIFT features. Affinity propagation successfully identifies meaningful categories, which provide a natural summarization of the training images and can be used to classify new input images.}, 
+  keywords={face recognition;image classification;image reconstruction;image segmentation;unsupervised learning;Olivetti face data set;SIFT feature matching;classification methods;error reconstruction;image-video summarization;nonmetric affinity propagation;segmentation methods;tracking methods;translation-invariant nonmetric similarity;unsupervised image categorization;Clustering algorithms;Data preprocessing;Educational institutions;Error analysis;Euclidean distance;Face detection;Image reconstruction;Image segmentation;Iterative algorithms;Machine learning}, 
+  doi={10.1109/ICCV.2007.4408853}, 
+  ISSN={1550-5499}, 
+  month={Oct}
+}
+
+
+@Article{wang-2008-adaptive-affinity-propagation-clustering,
+  author    = {Wang, Kaijun and Zhang, Junying and Li, Dan and Zhang, Xinna and Guo, Tao},
+  title     = {Adaptive Affinity Propagation Clustering},
+  journal   = {CoRR},
+  volume    = {abs/0805.1096},
+  year      = {2008},
+  url       = {http://arxiv.org/abs/0805.1096},
+  archivePrefix = {arXiv},
+  eprint    = {0805.1096},
+  timestamp = {Wed, 07 Jun 2017 14:41:30 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-0805-1096},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+
+  abstract={Affinity propagation clustering (AP) has two limitations: it is hard to know what value of parameter ‘preference’ can yield an optimal clustering solution, and oscillations cannot be eliminated automatically if occur. The adaptive AP method is proposed to overcome these limitations, including adaptive scanning of preferences to search space of the number of clusters for finding the optimal clustering solution, adaptive adjustment of damping factors to eliminate oscillations, and adaptive escaping from oscillations when the damping adjustment technique fails. Experimental results on simulated and real data sets show that the adaptive AP is effective and can outperform AP in quality of clustering results.}
+}
+
