@@ -1,5 +1,5 @@
 # Machine-Leaning-Notebooks
-A (soon to be) collection of Jupyter Notebooks containing an introduction to machine learning topics.
+A collection of Jupyter Notebooks containing an introduction to machine learning topics.
 
 ## Topics
 * ### Document Classification
