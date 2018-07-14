@@ -1,0 +1,50 @@
+@Article{zhang-2004-the-optimality-of-naive-bayes,
+  title={The Optimality of Naive Bayes},
+  author={Zhang, Harry},
+  journal={American Association for Artificial Intelligence},
+  year={2004},
+
+  abstract={Naive Bayes is one of the most efficient and effective inductive learning algorithms for machine learning and data mining. Its competitive performance in classification is surprising, because the conditional independence assumption on which it is based, is rarely true in realworld applications. An open question is: what is the true reason for the surprisingly good performance of naive Bayes in classification? In this paper, we propose a novel explanation on the superb classification performance of naive Bayes. We show that, essentially, the dependence distribution; i.e., how the local dependence of a node distributes in each class, evenly or unevenly, and how the local dependencies of all nodes work together, consistently (supporting a certain classification) or inconsistently (canceling each other out), plays a crucial role. Therefore, no matter how strong the dependences among attributes are, naive Bayes can still be optimal if the dependences distribute evenly in classes, or if the dependences cancel each other out. We propose and prove a sufficient and necessary conditions for the optimality of naive Bayes. Further, we investigate the optimality of naive Bayes under the Gaussian distribution. We present and prove a sufficient condition for the optimality of naive Bayes, in which the dependence between attributes do exist. This provides evidence that dependence among attributes may cancel out each other. In addition, we explore when naive Bayes works well.}
+}
+
+@INPROCEEDINGS{mccallum-1998-a-comparison-of-event-models-for-naive-bayes-text-classification,
+  title={A comparison of event models for naive bayes text classification},
+  author={McCallum, Andrew and Nigam, Kamal and others},
+  booktitle={AAAI-98 workshop on learning for text categorization},
+  volume={752},
+  number={1},
+  pages={41--48},
+  year={1998},
+  organization={Citeseer},
+
+  abstract={Recent approaches to text classification have used two different first-order probabilistic models for classification, both of which make the naive Bayes assumption. Some use a multi-variate Bernoulli model, that is, a Bayesian Network with no dependencies between words and binary word features (e.g. Larkey and Croft 1996; Koller and Sahami 1997). Others use a multinomial model, that is, uni-gram language model with integer word counts (e.g. Lewis and Gale 1994; Mitchell 1997). This paper aims to clarify the confusion by describing the differences and details of these two models, and by empirically comparing their classification performance on five text corpora. We find that the multi-variate Bernoulli performs well with small vocabulary sizes, but that the multinomial performs usually performs even better at larger vocabulary sizes—providing on average a 27% reduction in error over the multi-variate Bernoulli model at any vocabulary size. }
+
+}
+
+@Article{zhang-2008-naive-bayes-for-optimal-ranking,
+ author = { Harry Zhang and Jiang Su },
+ title = {Naive Bayes for optimal ranking},
+ journal = {Journal of Experimental \& Theoretical Artificial Intelligence},
+ volume = {20},
+ number = {2},
+ pages = {79-93},
+ year  = {2008},
+ publisher = {Taylor & Francis},
+ doi = {10.1080/09528130701476391},
+ 
+ URL = { https://doi.org/10.1080/09528130701476391 },
+ eprint = { https://doi.org/10.1080/09528130701476391 },
+ abstract = { It is well known that naive Bayes performs surprisingly well in classification, but its probability estimation is poor. AUC (the area under the receiver operating characteristics curve) is a measure different from classification accuracy and probability estimation, which is often used to measure the quality of rankings. Indeed, an accurate ranking of examples is often more desirable than a mere classification. What is the general performance of naive Bayes in yielding optimal ranking, measured by AUC? In this paper, we study it systematically by both empirical experiments and theoretical analysis. In our experiments, we compare naive Bayes with a state-of-the-art decision-tree learning algorithm C4.4 for ranking, and some popular extensions of naive Bayes which achieve a significant improvement over naive Bayes in classification, such as the selective Bayesian classifier (SBC) and tree-augmented naive Bayes (TAN). Our experimental results show that naive Bayes performs significantly better than C4.4 and comparably with TAN. This provides empirical evidence that naive Bayes performs well in ranking. Then we analyse theoretically the optimality of naive Bayes in ranking. We study two example problems: conjunctive concepts and m-of-n concepts, which have been used in analysing the performance of naive Bayes in classification. Surprisingly, naive Bayes performs optimally on them in ranking, even though it does not in classification. We present and prove a sufficient condition for the optimality of naive Bayes in ranking. From both empirical and theoretical studies, we believe that naive Bayes is a competitive model for ranking. A preliminary version of this paper appeared in ECML2004 }
+}
+
+@INPROCEEDINGS{metsis-2006-spam-filtering-with-naive-bayes-which-naive-bayes,
+  title={Spam filtering with naive bayes-which naive bayes?},
+  author={Metsis, Vangelis and Androutsopoulos, Ion and Paliouras, Georgios},
+  booktitle={CEAS},
+  volume={17},
+  pages={28--69},
+  year={2006},
+  organization={Mountain View, CA},
+
+  abstract={Naive Bayes is very popular in commercial and open-source anti-spam e-mail filters. There are, however, several forms of Naive Bayes, something the anti-spam literature does not always acknowledge. We discuss five different versions of Naive Bayes, and compare them on six new, non-encoded datasets, that contain ham messages of particular Enron users and fresh spam messages. The new datasets, which we make publicly available, are more realistic than previous comparable benchmarks, because they maintain the temporal order of the messages in the two categories, and they emulate the varying proportion of spam and ham messages that users receive over time. We adopt an experimental procedure that emulates the incremental training of personalized spam filters, and we plot roc curves that allow us to compare the different versions of nb over the entire tradeoff between true positives and true negatives.}
+}
