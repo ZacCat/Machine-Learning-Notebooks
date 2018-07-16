@@ -52,17 +52,6 @@
   month={Jul}
 }
 
-@INPROCEEDINGS{wagstaff-2001-constrained-k-means-clustering-with-background-knowledge,
-  title={Constrained k-means clustering with background knowledge},
-  author={Wagstaff, Kiri and Cardie, Claire and Rogers, Seth and Schr{\"o}dl, Stefan and others},
-  booktitle={ICML},
-  volume={1},
-  pages={577--584},
-  year={2001},
-
-  abstract={Clustering is traditionally viewed as an unsupervised method for data analysis. However, in some cases information about the problem domain is available in addition to the data instances themselves. In this paper, we demonstrate how the popular k-means clustering algorithm can be profitably modified to make use of this information. In experiments with artificial constraints on six data sets, we observe improvements in clustering accuracy. We also apply this method to the real-world problem of automatically detecting road lanes from GPS data and observe dramatic increases in performance.}
-}
-
 @Article{cui-2014-optimized-big-data-k-means-clustering-using-mapreduce,
   author={Cui, Xiaoli and Zhu, Pingfei and Yang, Xin and Li, Keqiu and Ji, Changqing},
   title={Optimized big data K-means clustering using MapReduce},
@@ -90,3 +79,31 @@
 
   abstract={In this paper, we present a novel algorithm for performing k-means clustering. It organizes all the patterns in a k-d tree structure such that one can find all the patterns which are closest to a given prototype efficiently. The main intuition behind our approach is as follows. All the prototypes are potential candidates for the closest prototype at the root level. However, for the children of the root node, we may be able to prune the candidate set by using simple geometrical constraints. This approach can be applied recursively until the size of the candidate set is one for each node. Our experimental results demonstrate that our scheme can improve the computational speed of the direct k-means algorithm by an order to two orders of magnitude in the total number of distance calculations and the overall time of computation.}
 }
+
+@Article{zhao-2018-k-means-a-revisit,
+  title = {k-means: A revisit},
+  journal = {Neurocomputing},
+  volume = {291},
+  pages = {195 - 206},
+  year = {2018},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2018.02.072},
+  url = {http://www.sciencedirect.com/science/article/pii/S092523121830239X},
+  author = {Zhao, Wan-Lei and Deng, Cheng-Hao and Chong-Wah Ngo, Chong-Wah},
+  keywords = {Clustering, -means, Incremental optimization},
+
+  abstract={Due to its simplicity and versatility, k-means remains popular since it was proposed three decades ago. The performance of k-means has been enhanced from different perspectives over the years. Unfortunately, a good trade-off between quality and efficiency is hardly reached. In this paper, a novel k-means variant is presented. Different from most of k-means variants, the clustering procedure is driven by an explicit objective function, which is feasible for the whole l2-space. The classic egg-chicken loop in k-means has been simplified to a pure stochastic optimization procedure. The procedure of k-means becomes simpler and converges to a considerably better local optima. The effectiveness of this new variant has been studied extensively in different contexts, such as document clustering, nearest neighbor search and image clustering. Superior performance is observed across different scenarios.}
+}
+
+@INPROCEEDINGS{wagstaff-2001-constrained-k-means-clustering-with-background-knowledge,
+  title={Constrained k-means clustering with background knowledge},
+  author={Wagstaff, Kiri and Cardie, Claire and Rogers, Seth and Schr{\{o}dl, Stefan and others},
+  booktitle={ICML},
+  volume={1},
+  pages={577--584},
+  year={2001},
+
+  abstract={Clustering is traditionally viewed as an unsupervised method for data analysis. However, in some cases information about the problem domain is available in addition to the data instances themselves. In this paper, we demonstrate how the popular k-means clustering algorithm can be profitably modified to make use of this information. In experiments with artificial constraints on six data sets, we observe improvements in clustering accuracy. We also apply this method to the real-world problem of automatically detecting road lanes from GPS data and observe dramatic increases in performance.}
+}
+
+
