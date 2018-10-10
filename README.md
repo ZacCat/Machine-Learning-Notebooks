@@ -1,4 +1,4 @@
-# Machine-Leaning-Notebooks
+# Machine-Learning-Notebooks
 A collection of Jupyter Notebooks containing an introduction to machine learning topics.
 
 ## Topics
